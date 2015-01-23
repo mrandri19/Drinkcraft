@@ -1,0 +1,16 @@
+[
+{
+  "modid": "drinkcraft",
+  "name": "DrinkCraft",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Andrea Cognolato"],
+  "credits": "The credits",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
