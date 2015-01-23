@@ -30,5 +30,6 @@ public class Reference {
 	public static final float TOOLMATERIAL_DAMAGE = 2.5f;
 	public static final int TOOLMATERIAL_ENCHANT = 30;
 	
-	public static final String MAGNESIUMSWORD = "magnesiumSword";	
+	public static final String MAGNESIUMSWORD = "magnesiumSword";
+	public static final int MAGNESIUMSWORD_MAXSTACKSIZE = 1;	
 }

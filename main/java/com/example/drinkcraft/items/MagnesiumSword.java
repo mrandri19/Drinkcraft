@@ -17,12 +17,14 @@ public class MagnesiumSword extends ItemSword{
 		super(toolMaterial);
 		this.setUnlocalizedName(Reference.MODID+"_"+Reference.MAGNESIUMSWORD);
 		this.setTextureName(Reference.MODID+":"+Reference.MAGNESIUMSWORD);
-		this.setMaxStackSize(12);
+		this.setMaxStackSize(Reference.MAGNESIUMSWORD_MAXSTACKSIZE);
 	}
 	@Override
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer entity)//Quando viene premuto
     {
 		entity.jump();
+		int damage = itemStack.getItemDamage();//Ottiene il danno
+		itemStack.setItemDamage(damage+1);//Lo setta danno+1
 		entity.setItemInUse(itemStack, this.getMaxItemUseDuration(itemStack));//Dice che e' in uso
         return itemStack;//Ritorna quell' istanza
     }
