@@ -4,6 +4,7 @@ import net.minecraftforge.common.MinecraftForge;
 
 import com.example.drinkcraft.init.ModBlocks;
 import com.example.drinkcraft.init.ModItems;
+import com.example.drinkcraft.init.ModTileentities;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -20,6 +21,7 @@ public class ExampleMod {
 	public void preInit(FMLPreInitializationEvent event) {
 		ModItems.init();
 		ModBlocks.init();
+		ModTileentities.init();
 		System.out.println("\ndaw");
 	}
 

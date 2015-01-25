@@ -31,5 +31,7 @@ public class Reference {
 	public static final int TOOLMATERIAL_ENCHANT = 30;
 	
 	public static final String MAGNESIUMSWORD = "magnesiumSword";
-	public static final int MAGNESIUMSWORD_MAXSTACKSIZE = 1;	
+	public static final int MAGNESIUMSWORD_MAXSTACKSIZE = 1;
+	public static final String FURNACEBLOCK = "furnaceBlock";
+	public static final float FURNACEBLOCK_HARDNESS = 6.0f;	
 }

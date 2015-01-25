@@ -12,9 +12,9 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 
-public class fireBlock extends Block{
+public class FireBlock extends Block{
 
-	public fireBlock() {
+	public FireBlock() {
 		super(Material.rock);
 		this.setCreativeTab(CreativeTabs.tabBlock);
 		this.setBlockName(Reference.MODID+"_"+Reference.FIREBLOCK);
